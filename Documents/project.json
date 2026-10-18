@@ -3,12 +3,7 @@
 	"category": "document-generation",
 	"tags": [ "project" ],
 	"language": "html",
-	"template": "Using modern chromium browser client side js, svg, css and html. Write a html app named `{topic}` that {{_inputs}}, Provide a clean, downloadable and chromium browser openable {topic}.mhtml file, as well as a zipped version.",
-	"parameters": [ "topic" ],
-	"defaults": {
-
-		"topic": ""
-
-	},
+	"template": "`{topic}` that {_inputs}. Using client side js, svg, css and html. Output a clean, downloadable and chromium browser openable single {topic}.mhtml file, as well as a zipped version.",
+	"parameters": [ "topic", "_inputs" ],
 	"version": "1.0.0"
 }

@@ -3,10 +3,7 @@
 	"category": "document-generation",
 	"tags": [ "`mshtml`" ],
 	"language": "html",
-	"template": "Write a html app named `{topic}` that {{_inputs}}.Provide a clean, downloadable and chromium browser openable {topic}.mhtml file",
-	"parameters": [ "topic" ],
-	"defaults": {
-		"topic": ""
-	},
+	"template": "`{topic}` that {_inputs} in the form of client side html, output a clean, downloadable and chromium browser openable single {topic}.mhtml file",
+	"parameters": [ "topic", "_inputs" ],
 	"version": "1.0.0"
 }

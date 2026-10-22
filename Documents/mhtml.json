@@ -3,7 +3,7 @@
 	"category": "document-generation",
 	"tags": [ "`mshtml`" ],
 	"language": "html",
-	"template": "`folder` \n\r {_inputs} in the form of client side html, output a single clean, downloadable and chromium browser openable  {topic}/{folder}.mhtml file",
-	"parameters": [ "topic", "folder", "_inputs" ],
+	"template": "`{_subfolder}` \n\r {_inputs} in the form of client side html, output a single clean, downloadable and chromium browser openable  {topic}/{_subfolder}.mhtml file",
+	"parameters": [ "topic", "_subfolder", "_inputs" ],
 	"version": "1.0.0"
 }

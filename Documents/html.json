@@ -3,7 +3,7 @@
 	"category": "document-generation",
 	"tags": [ "`html`" ],
 	"language": "html",
-	"template": "`{_subfolder}` \n\r {_inputs} in the form of self-contained html, output a a clean, modern, responsive design with HTML5 and embedded CSS {topic}/{_subfolder}.html file",
+	"template": "`{_subfolder}` {topic}\n\r {_inputs} in the form of self-contained html, output a a clean, modern, responsive design with HTML5 and embedded CSS {topic}/{_subfolder}.html file that is downloadable and viewable in a browser",
 	"parameters": [ "topic", "_subfolder", "_inputs" ],
 	"version": "1.0.0"
 }
